@@ -1,6 +1,6 @@
 {
   "name": "ssh-beanstalk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ssh into an ec2 instance belonging to an elastic beanstalk environment",
   "main": "index.js",
   "bin": "ssh.sh",
