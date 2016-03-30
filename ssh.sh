@@ -1,6 +1,6 @@
 #!/bin/bash
-
-EC2_URL="$(node index.js $*)"
+CURRENT="$(pwd)"
+EC2_URL="$(node $CURRENT/index.js $*)"
 if [ $? -ne 0 ]
     then
         echo "$EC2_URL"
