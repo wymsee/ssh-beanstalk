@@ -1,6 +1,5 @@
 #!/bin/bash
-CURRENT="$(pwd)"
-EC2_URL="$(node $CURRENT/index.js $*)"
+EC2_URL="$(ssh-beanstalk-print $*)"
 if [ $? -ne 0 ]
     then
         echo "$EC2_URL"

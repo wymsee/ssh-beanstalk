@@ -3,7 +3,10 @@
   "version": "1.0.2",
   "description": "ssh into an ec2 instance belonging to an elastic beanstalk environment",
   "main": "index.js",
-  "bin": "ssh.sh",
+  "bin": {
+    "ssh-beanstalk": "ssh.sh",
+    "ssh-beanstalk-print": "index.js"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=4.0.0"
